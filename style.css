@@ -193,3 +193,49 @@ grid-template-columns: 80%;
     margin: 10px 60px;
 }       
 }
+/*bootstrap en PAGINA INGRESAR* PENDIENTE DE REVISAR PORQUE ME CAMBIO BG COLOR*/
+.bgcl{
+    background-color: #161d29;
+}
+.navbarnavbar-expand-lgbgcl{
+    background-color: #161d29;
+}
+/*PAGINA WORKSHOPS GRID*/
+.workshops img{
+    width: 30%;
+}
+.workshops{
+    display: grid;
+    grid-template-areas: 
+    "imgworkshop1"   
+    "textoworkshop1"
+    "imgworkshop2"   
+    "textoworkshop2"
+    "imgworkshop3"   
+    "textoworkshop3";
+    
+    grid-template-rows: 300px 100px 300px 100px 300px 100px;
+    grid-template-columns: 80%;
+    justify-content: center;
+}
+.imgworkshop1{
+    grid-area: imgworkshop1;
+    margin: 1px 350px;
+}
+.textoworkshop1{
+    grid-area: textoworkshop1;
+}
+.imgworkshop2{
+    grid-area: imgworkshop2;
+    margin: 1px 350px;
+}
+.textoworkshop2{
+    grid-area: textoworkshop2;
+}
+.imgworkshop3{
+    grid-area: imgworkshop3;
+    margin: 1px 350px;
+}
+.textoworkshop3{
+    grid-area: textoworkshop3;
+}
