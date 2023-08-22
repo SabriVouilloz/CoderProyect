@@ -1,0 +1,64 @@
+@import "partials/nav";
+@import "partials/inicio";
+@import "partials/pack";
+@import "partials/wkps";
+@import "partials/footer";
+@import "partials/variables";
+
+body{
+    background-color: $fondoazul;
+    font-size: 62.5%;
+    font-family: $fonttexto;
+    margin: auto;
+}
+
+.tituloinicio{
+ font-family: $fonttitulo;
+ font-size: 2rem;
+ color: $letrablanco;
+ text-align: center;
+ h3{
+    font-weight: lighter;
+ } 
+}
+h4{
+    font-family: $fonttitulo;
+    color: $letrablanco;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    text-align: center;
+    }
+p{
+    color: $letrablanco;
+    font-family: $fonttexto;
+    font-size: 1.25rem;
+    text-align:center;
+    margin: 30px;
+    line-height: 30px;
+}
+.imgmetodo{
+    width: 60%;
+    margin: 30px 255px;
+}
+.imgprofe{
+    width: 40%;
+    margin: 30px 200px;
+}
+@media only screen and (max-width:500px){
+    .tituloinicio{
+        font-size: 1rem;
+        margin: 1px 15px;
+    }
+   h3{
+    font-size: 0.50rem;    
+   }
+    p{
+        font-size: 1rem;
+    }
+    .imgmetodo{
+        margin: 15px 80px;
+    }
+    .imgprofe{
+        margin: 15px 80px;
+    }
+}

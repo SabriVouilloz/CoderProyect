@@ -1,0 +1,53 @@
+@import "variables";
+.workshops img{
+    width: 30%;
+    
+}
+.workshops{
+    display: grid;
+    grid-template-areas: 
+    "imgworkshop1"   
+    "textoworkshop1"
+    "imgworkshop2"   
+    "textoworkshop2"
+    "imgworkshop3"   
+    "textoworkshop3";
+    
+    grid-template-rows: 350px 100px 350px 100px 350px 100px;
+    grid-template-columns: 80%;
+    justify-content: center;
+    justify-items: center;
+   }
+.imgworkshop1{
+    grid-area: "imgworkshop1";
+    align-self: center;
+}
+.textoworkshop1{
+    grid-area: "textoworkshop1";
+    align-self: center;
+}
+.imgworkshop2{
+    grid-area: "imgworkshop2";
+    align-self: center;
+}
+.textoworkshop2{
+    grid-area: "textoworkshop2";
+    align-self: center;
+}
+.imgworkshop3{
+    grid-area: "imgworkshop3";
+    align-self: center;
+}
+.textoworkshop3{
+    grid-area: "textoworkshop3";
+    align-self: center;
+}
+@media only screen and (max-width:500px){
+    .workshops img{
+        width: 60%;
+    } 
+ .workshops{
+    grid-template-rows: 200px 100px 200px 100px 200px 120px; 
+    grid-template-columns: 80%;
+}   
+}

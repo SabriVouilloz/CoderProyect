@@ -1,0 +1,35 @@
+@import "variables";
+
+
+.bgcl{
+    background-color: $fondoazul;
+}
+.navbarnavbar-expand-lgbgcl{
+    background-color: $fondoazul;
+}
+
+.imglogo{
+    width: 11rem;
+    padding: 1px 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+
+    ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 70px 30px;
+
+         a {
+        color: $letrablanco;
+        font-size: 1rem;
+        text-decoration: none;
+        font-family:$fonttitulo;
+    }
+    a:hover{
+        color: $letraverde;
+    }
+  }       
+}

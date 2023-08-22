@@ -1,0 +1,86 @@
+.packdeclases img{
+    width: 50%; 
+}
+ .packdeclases{
+    display: grid;
+    grid-template-areas:
+    "imgpack1     textopack1"
+    "textopack2   imgpack2"
+    "imgpack3     textopack3";
+
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+}
+
+.imgpack1{
+    grid-area: imgpack1;
+    justify-self: center;
+    align-self: center;
+}
+.textopack1{
+    grid-area: textopack1;
+    align-self:center;
+}
+.imgpack2{
+    grid-area: imgpack2;
+    justify-self: center;
+    align-self: center;
+}
+.textopack2{
+    grid-area: textopack2;
+    align-self: center;
+}
+.imgpack3{
+    grid-area: imgpack3;
+    justify-self: center;
+    align-self: center;
+
+}
+.textopack3{
+    grid-area: textopack3;
+    align-self: center;
+}
+@media only screen and (max-width:500px){
+    .packdeclases{
+        grid-template-areas:
+        "imgpack1"
+        "textopack1"
+        "imgpack2"
+        "textopack2"
+        "imgpack3"
+        "textopack3";
+    grid-template-rows: repeat(6,160px);
+    grid-template-columns: 80%;
+
+.imgpack1{
+    grid-area: imgpack1;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+.textopack1{
+    grid-area: textopack1;
+    align-self:center;
+}
+.imgpack2{
+    grid-area: imgpack2;
+    justify-self: center;
+    align-self: center;
+}
+.textopack2{
+    grid-area: textopack2;
+    align-self: center;
+}
+.imgpack3{
+    grid-area: imgpack3;
+    justify-self: center;
+    align-self: center;
+
+}
+.textopack3{
+    grid-area: textopack3;
+    align-self: center;
+}   
+}    
+}
