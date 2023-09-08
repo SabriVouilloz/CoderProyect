@@ -6,6 +6,14 @@
   background-color: #161d29;
 }
 
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
 .imglogo {
   width: 11rem;
   padding: 1px 20px;
@@ -82,6 +90,11 @@ nav ul li a:hover {
 @media only screen and (max-width: 500px) {
   .banner {
     margin: 15px 80px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .banner {
+    margin: 15px 180px;
   }
 }
 .packdeclases img {
@@ -255,6 +268,20 @@ ul li:hover {
     margin: 10px;
   }
 }
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .imglogofooter {
+    margin: 1px 250px;
+    width: 30%;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  ul li {
+    margin: 1px;
+  }
+}
 body {
   background-color: #161d29;
   font-size: 62.5%;
@@ -315,6 +342,11 @@ p {
   }
   .imgprofe {
     margin: 15px 80px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .imgmetodo {
+    margin: 15px 150px;
   }
 }
 
