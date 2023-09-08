@@ -237,10 +237,13 @@ nav ul li a:hover {
 
 .footer {
   display: flex;
+  margin: 50px 10px;
+}
+
+.footer {
   flex-direction: row;
   justify-content: left;
   align-content: space-around;
-  margin: 50px 10px;
 }
 
 .footer ul li {

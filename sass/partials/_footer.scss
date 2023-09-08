@@ -6,11 +6,20 @@
 }
 .footer{
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-content:space-around;
     margin: 50px 10px 
 }
+
+@mixin flex ($flexdirection, $flexjustfy, $flexalign){
+    flex-direction: $flexdirection;
+    justify-content: $flexjustfy;
+    align-content: $flexalign;
+}
+.footer{
+    @include flex (row,left,space-around)
+}
+
+
+
 .footer ul li{
     display: inline-block;
     margin: 80px;
